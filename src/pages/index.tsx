@@ -13,32 +13,29 @@ const IndexPage = () => {
           fontWeight: 'bold',
         }}
       >
-        Gatsby Ant Design Docs Boilerplate
+        Gatsby app deployed on both <a href='https://gatsby-docs-on-vercel.vercel.app/'>Vercel</a> and <a href='https://gatsbydocsdemo.gatsbyjs.io/'>gatsby</a>
       </p>
-      <h2>A gatsby starter to create documentation websites</h2>
-      <p>
-        This is a fork of{' '}
-        <a href="https://github.com/cvluca/gatsby-starter-markdown">
-          https://github.com/cvluca/gatsby-starter-markdown
-        </a>
-      </p>
+      <h2>Same code base and repo, two deployments.</h2>
+      <a href='https://github.com/heythereimchris/gatsby-docs-demo'>Github Repo</a>
+
+
       <br />
       <Button.Group size="large">
         <Button
           size="large"
           icon={<TwitterOutlined />}
-          href="https://twitter.com/jannikbuschke"
+          href="https://gatsby-docs-on-vercel.vercel.app/"
           target="_blank"
         >
-          Twitter
+          Vercel
         </Button>
         <Button
           size="large"
           icon={<GithubOutlined />}
-          href="https://github.com/jannikbuschke/gatsby-antd-docs"
+          href="https://gatsbydocsdemo.gatsbyjs.io/"
           target="_blank"
         >
-          Github
+          Gatsby
         </Button>
 
         <Button type="primary" size="large">
